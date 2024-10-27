@@ -28,15 +28,15 @@
             border-radius: 5px;
             margin-bottom: 15px;
         }
-        button {
-            padding: 10px 15px;
-            background-color: red; /\* رنگ جدید \*/
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
+       button {
+    padding: 10px 15px;
+    background-color: red;  /* رنگ پس‌زمینه */
+    color: white;           /* رنگ متن: تغییر به سفید */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
         button:hover {
             background-color: darkred; /\* رنگ hover \*/
         }
@@ -82,7 +82,7 @@
 <body>
     <img src="http://rayanee.ac.ir/wp-content/uploads/elementor/thumbs/-3-q9xk2ix6mq2o4rl50g9613qx0l4b4kqkahzumo01gc.png" alt="Logo">  <!-- لوگو -->
     <h1>پیگیری دانشنامه</h1>
-    <input type="text" id="codeInput" placeholder="کد ورود" inputmode="numeric" dir="rtl" pattern="[0-9۰-۹]\*" />
+    <input type="text" id="codeInput" placeholder="شماره دانشجویی" inputmode="numeric" dir="rtl" pattern="[0-9۰-۹]\*" />
     <button onclick="fetchData()">جستجو</button>
     <div id="result"></div>
 </body>
